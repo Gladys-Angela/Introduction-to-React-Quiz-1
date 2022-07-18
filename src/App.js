@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './logo.svg';
+import logo from './flower.jpg';
 import './App.css';
 
 /**
@@ -66,6 +66,9 @@ function App() {
     
     <>
     
+    <div>
+      {<p>JSX is cool!</p>}
+    </div>
     <img src={logo} className="App-logo" alt="logo" />
       <h3>User names</h3>
       <ul></ul>
