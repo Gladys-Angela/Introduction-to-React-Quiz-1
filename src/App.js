@@ -1,15 +1,16 @@
 import React from "react";
 import logo from './flower.jpg';
+
 import './App.css';
 
 /**
   Challenge: Display all users to the browser
 **/
 
-const users = [
+  const users = [
   { name: "John Doe", id: 1 },
   { name: "Jane Doe", id: 2 },
-  { name: "Billy Doe", id: 3 }
+  { name: "Billy Doe", id: 3 },
 ];
 
 // comment this out after completion and uncomment code below it to proceed
@@ -67,7 +68,7 @@ function App() {
     <>
     
     <div>
-      {<p>JSX is cool!</p>}
+      JSX is cool!
     </div>
     <img src={logo} className="App-logo" alt="logo" />
       <h3>User names</h3>
